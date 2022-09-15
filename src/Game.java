@@ -63,7 +63,7 @@ public class Game {
                     }
                     break;
                 case 5:
-                    if (!player.getInventory().isFirewood()){
+                    if (!player.getInventory().isWater()){
                         location = new River(player);
                     }
                     else {
